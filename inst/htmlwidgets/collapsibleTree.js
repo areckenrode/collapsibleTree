@@ -81,6 +81,7 @@ HTMLWidgets.widget({
       // Add labels for the nodes
       nodeEnter.append('text')
       .attr('dy', '.35em')
+      .attr('transform','rotate(-45)')
       .attr('x', function(d) {
         // Scale padding for label to the size of node
         var padding = (d.data.SizeOfNode || 10) + 3
